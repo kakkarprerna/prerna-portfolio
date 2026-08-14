@@ -1,0 +1,35 @@
+import {
+  MessagesSquare,
+  BarChart3,
+  ShieldCheck,
+  Crown,
+  Target,
+  Layers,
+  FileText,
+  ShieldAlert,
+  Search,
+  PenTool,
+  ListChecks,
+  Hammer,
+  Rocket,
+  LineChart,
+  type LucideIcon,
+} from "lucide-react";
+import type { IconName } from "@/lib/data";
+
+export const iconMap: Record<IconName, LucideIcon> = {
+  MessagesSquare,
+  BarChart3,
+  ShieldCheck,
+  Crown,
+  Target,
+  Layers,
+  FileText,
+  ShieldAlert,
+  Search,
+  PenTool,
+  ListChecks,
+  Hammer,
+  Rocket,
+  LineChart,
+};
